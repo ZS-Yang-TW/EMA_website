@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static "style.css" %}">
+
+    {{request.session.isLogin}}
+
+    {% if request.session.isLogin %}
+    {% else %}
+        <h1>Hello EMA_website</h1>
+    {% endif %}
+
+    {% comment %} 利用 {{ 變數名稱 }} 進行變數化 {% endcomment %}
+    <p>User : {{ name }}</p>
+    <p>Age :  {{ age }}</p>
+    <p>VIP :  {{ VIP_valid }}</p>
+    <p>num_a :  {{ dict.a }}</p>
+    <p>num_b :  {{ dict.b }}</p>
+    
+    <p>user_data(name) :  {{ user_data.name }}</p>
+    <p>user_data(age) :  {{ user_data.age }}</p>
+    <p>user_data(type) :  {{ user_data.type }}</p>
+
+    {% for each in loops %}
+    <h5>{{each}}</h5>
+    {% endfor %}
+
+    <form action="/index/" method="post">
+        {% csrf_token %}
+        <p>Name :</p>
+        <p><input name="name" type="text"></p>
+        <p>Age :</p>
+        <p><input name="age" type="text"></p>
+        <p><input value="生成詳解" type="submit"></p>
+    </form>
+
+    <video src="{% static "addition.mp4" %}" controls></video>
+</head>
+<body>
+    
+</body>
+</html>
