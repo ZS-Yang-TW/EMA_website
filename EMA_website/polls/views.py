@@ -1,10 +1,9 @@
-import email
 from django.shortcuts import render
 from .models import TB_1
 # Create your views here.
 def index(request):
     # Login Session
-    request.session['isLogin'] = False
+    request.session['isLogin'] = True
     
     # Form Function
     if request.method == 'POST':
@@ -34,3 +33,8 @@ def index(request):
         'user_data' : user_data,
     }
     return render(request, './polls/index.html', arg)
+
+def generate_EMA(request):
+    arg = {}
+    
+    return render(request, './polls/ema.html', arg)

@@ -1,0 +1,49 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="zh-TW">
+    <voice name="zh-TW-YunJheNeural">
+    <prosody rate="-10.00%">
+        <bookmark mark='mark_0'/>1978，<bookmark mark='mark_1'/>加上1579，<bookmark mark='mark_2'/>河起來會是多少呢?<bookmark mark='mark_3'/>
+        算加法，我們可以利用位置表來幫助我們做對位。<bookmark mark='mark_4'/>
+        我有<bookmark mark='mark_5'/>1千、9百、7十、8。加上1千、5百、7十、9。
+        對位對好了，從最右邊開始計算。<bookmark mark='mark_6'/>
+        首先，<bookmark mark='mark_7'/>
+        8個1,，加9個1。
+        8加9，等於17。
+        17個1，先<bookmark mark='mark_8'/>
+        把7寫下來。<bookmark mark='mark_9'/>
+        那17個1當中，每十個1，會等於1個十。所以<bookmark mark='mark_10'/>
+        進位1<bookmark mark='mark_11'/>
+        個十過來。<bookmark mark='mark_12'/>
+        再來，<bookmark mark='mark_13'/>
+        十位的計算<bookmark mark='mark_14'/>。
+        7個十,，加7個十。
+        7加7，等於14。
+        14再加上剛剛進位的1。
+        14加1，等於15。
+        15個十，先<bookmark mark='mark_15'/>
+        把5寫下來。<bookmark mark='mark_16'/>
+        那15個十當中，每十個十，會等於1個百。所以<bookmark mark='mark_17'/>
+        進位1<bookmark mark='mark_18'/>
+        個十過來。<bookmark mark='mark_19'/>
+        再來，<bookmark mark='mark_20'/>
+        百位的計算<bookmark mark='mark_21'/>。
+        9個百,，加5個百。
+        9加5，等於14。
+        14再加上剛剛進位的1。
+        14加1，等於15。
+        15個百，先<bookmark mark='mark_22'/>
+        把5寫下來。<bookmark mark='mark_23'/>
+        那15個百當中，每十個百，會等於1個千。所以<bookmark mark='mark_24'/>
+        進位1<bookmark mark='mark_25'/>
+        個千過來。<bookmark mark='mark_26'/>
+        最後，<bookmark mark='mark_27'/>
+        千位的計算<bookmark mark='mark_28'/>。
+        1個千,，加1個千。
+        1加1，等於2。
+        2再加上剛剛進位的1。
+        2加1，等於3。
+        3個千，我們<bookmark mark='mark_29'/>
+        擺在千位。<bookmark mark='mark_30'/>
+        所以，<bookmark mark='mark_31'/>這一題的答案是3557。
+    </prosody>
+    </voice>
+</speak>

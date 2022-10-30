@@ -14,3 +14,6 @@
 * 用 "! + tab" 快速產生 html 框架。( [點我查閱](https://israynotarray.com/vscode/20220712/2790345819/) )
 * 可以用 `Ctrl + Shift + P` 打開 VScode 的命令盤
 * HTML中插入影片　https://www.fooish.com/html/video-tag.html
+
+django 靜態檔案之配置說明
+* https://www.796t.com/content/1550142369.html

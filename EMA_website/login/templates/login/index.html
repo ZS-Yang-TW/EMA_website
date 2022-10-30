@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+<!-- JS Block -->
+{% block js_content %}
+
+{% endblock %}
+    
+<!-- CSS Block -->
+{% block css_content %}
+
+{% endblock %}
+
+<!-- Main Block -->
+{% block content %}
+
+{% if request.session.loginFlag == True %}
+<p>登入成功</p>
+{% else %}
+<p>尚未登入</p>
+{% endif%}
+
+{% endblock %}

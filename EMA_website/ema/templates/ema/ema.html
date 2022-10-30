@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello EMA_website</h1>
+    {% comment %} 算式輸入區塊{% endcomment %}
+    <form action="/ema/" method="post">
+        {% csrf_token %}
+        <p><input name="question" type="text"></p>
+        <p><input value="生成詳解" type="submit"></p>
+    </form>
+    
+    {% comment %} 算式輸入區塊 {% endcomment %}
+    <video src="{% static "./videos/EMA_generate/720p30/output.mp4" %}" controls width=600></video>
+</body>
+</html>

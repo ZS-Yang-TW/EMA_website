@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="{% static "style.css" %}">
 
     {{request.session.isLogin}}
+    
     {% if request.session.isLogin %}
-    {% else %}
         <h1>Hello EMA_website</h1>
+    {% else %}
     {% endif %}
 
     {% comment %} 利用 {{ 變數名稱 }} 進行變數化 {% endcomment %}
@@ -38,7 +39,7 @@
         <p><input value="生成詳解" type="submit"></p>
     </form>
 
-    <video src="{% static "addition.mp4" %}" controls></video>
+    <video src="{% static "addition.mp4" %}" controls width=600></video>
 </head>
 <body>
     

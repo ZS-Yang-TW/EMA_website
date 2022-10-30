@@ -16,8 +16,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from polls import views as polls_views
+from ema import views as ema_views
+from login import views as login_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', polls_views.index)
+    path('index/', polls_views.index),
+    path('', ema_views.generate_EMA),
+    path('generate_EMA/', ema_views.generate_EMA),
+    path('ema/', ema_views.generate_EMA),
+    path('login/', login_views.login),
+    path('register/', login_views.register),
+    path('logout/', login_views.logout),
 ]

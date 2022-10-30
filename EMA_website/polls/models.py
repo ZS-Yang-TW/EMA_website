@@ -1,5 +1,3 @@
-from email.policy import default
-from secrets import choice
 from django.db import models
 
 class TB_1(models.Model):
@@ -22,8 +20,6 @@ class TB_1(models.Model):
     
     # 資料庫創立時間
     _time = models.DateTimeField(auto_now_add = True)
-    
-    
     
     # Data name setting
     def __str__(self):
